@@ -3,12 +3,12 @@
 
 #### _Supported commands:_
 ```
-NICK <newnick>
+NICK <newNick>
 PRIVMSG <nick/channel> <msg>
 NOTICE <nick/channel> <msg>
 LIST
 NAMES <channel>
-JOIN <channel>/,<channel>'s
+JOIN <channel>/,<channel>(comma separated channels)
 PART <channel>
 TOPIC <channel> /<newTopic>
 MODE <channel> <+/-o> <nick>
