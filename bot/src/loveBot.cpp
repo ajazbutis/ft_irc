@@ -133,6 +133,8 @@ void	LoveBot::respond(std::vector<std::string> &args)	{
 			throw (std::range_error("Wrong server password"));
 		if (args[1] == "461")
 			throw (std::range_error("Not enough parameters to connect to server"));
+		if (args[1] == "432")
+			throw (std::range_error("Let's not hang there"));
 		if (args[1] == "433")	{
 			_nick += "_";
 			return sendMsg("NICK " + _nick);
