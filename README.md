@@ -1,6 +1,30 @@
-# ft_irc
+### ***mini #Irc server***
+>_reference clients - Textual & KVIrc_
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/76685849/211903835-59647bd7-db40-40fb-b904-91b8561861da.jpg" alt="Under construction" width="500">
-</div>
+#### _Supported commands:_
+```
+NICK <newnick>
+PRIVMSG <nick/channel> <msg>
+NOTICE <nick/channel> <msg>
+LIST
+NAMES <channel>
+JOIN <channel>/,<channel>'s
+PART <channel>
+TOPIC <channel> /<newTopic>
+MODE <channel> <+/-o> <nick>
+KICK <channel> <nick> 
+OPER <adminName> <adminPass> {
+  KILL <nick>
+  WALL
+  SQUIT
+}
+QUIT
 
+Responds to:
+ WHO
+ ISON
+ PING
+ ```
+ #### ***loveBot***
+ _this lovely tiny bot, when run, joins a given server, creates/joins #Jokes, tries to change the topic and welcomes newly_
+ _to the channel joined users and, depending on the interaction, entertains the user by telling a joke or flirting._
