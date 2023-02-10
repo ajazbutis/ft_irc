@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   loveBot.cpp                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: vmiseiki <vmiseiki@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/02/09 16:51:38 by vmiseiki          #+#    #+#             */
-/*   Updated: 2023/02/09 17:13:22 by ajazbuti         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "LoveBot.hpp"
 
 LoveBot::LoveBot(std::string ip, std::string port, std::string pass, std::string nick): _ip(ip), _pass(pass), _nick(nick), _chnnl("#Jokes"), _join(false), _in(false), _o(false)	{

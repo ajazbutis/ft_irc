@@ -27,4 +27,4 @@ Responds to:
  ```
  #### ***loveBot***
  _this lovely tiny bot, when run, joins a given server, creates/joins #Jokes, tries to change the topic and welcomes newly_
- _to the channel joined users and, depending on the interaction, entertains the user by telling a joke or flirting._
+ _to the channel joined users also, depending on the interaction, entertains the user by telling a joke or flirting._
