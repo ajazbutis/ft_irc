@@ -164,6 +164,8 @@ void	LoveBot::respond(std::vector<std::string> &args)	{
 		if (args[2][0] == '#')	{
 			if (args[3] == ":!joke")
 				return tellJoke(args);
+			if (strstr(args[3].c_str(), "joke"))
+				return tellJoke(args);
 			if (args[3] == ":!info")
 				return sendMsg(args[1] + " " + args[2] + " :!joke for a joke! <3");
 			if (strstr(args[3].c_str(), _nick.c_str()))	{
